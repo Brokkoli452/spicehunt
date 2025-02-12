@@ -30,8 +30,8 @@ function ContentBox() {
                onChange={(e) => textValueSet(e.target.value)}
                className="content-box__input"/>
             <div>
-                {(res[0].image) ? <img src={res[0].image} alt=""/> : ''}
-                {res[0].title}
+                {res[0]?.image ? <img src={res[0].image} alt="" /> : ''}
+                {res[0]?.title}
             </div>
         </div>
     )
