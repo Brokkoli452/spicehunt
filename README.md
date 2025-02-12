@@ -1,4 +1,4 @@
-## Project Stack
+# Project Stack
 - React + TypeScript + Vite
 
 # Other
