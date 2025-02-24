@@ -1,11 +1,9 @@
-import './index.css';
+import './index.scss';
 
-function name() {
+export default function name() {
     return (
         <div className="main">
 
         </div>
     )
 }
-
-export default name

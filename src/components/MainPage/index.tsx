@@ -1,14 +1,17 @@
 import ContentBox from "../ContentBox";
 import './index.scss';
-import broccoli from "../../assets/icons/broccoli.svg";
 import spicehunt from "../../assets/icons/spicehunt.svg";
+import Broccoli from '../Broccoli';
+import Music from "../Music";
 
 function MainPage() {
+
     return (
         <div className="main-page">
+            <Music />
             <div className="spicehunt">
-                <img className="spicehunt-title" src={spicehunt} alt="" />
-                <img className="spicehunt-logo" src={broccoli} alt="" />
+                <Broccoli />
+                <img className="spicehunt-title" src={spicehunt} alt="" draggable={false}/>
             </div>
             <ContentBox />
         </div>

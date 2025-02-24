@@ -6,18 +6,22 @@
   justify-content: center;
   align-items: center;
 
-  background: #733700;
+  background: #57802d;
+  background-size: cover;
 
   .spicehunt {
+    position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
     animation: levitate 2.5s ease-in-out alternate-reverse infinite;
+    user-select: none;
   }
 
   .spicehunt-logo {
-    position: absolute;
+    position: relative;
     height: 12vh;
     aspect-ratio: 1/1;
     animation: rotate10 2.5s ease-in-out alternate-reverse infinite;
@@ -27,6 +31,7 @@
     position: relative;
     z-index: 2;
   }
+
 
   .logo:hover {
   }
