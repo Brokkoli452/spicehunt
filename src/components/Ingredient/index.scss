@@ -9,6 +9,7 @@
   background: rgba(white, 0.1);
   transition: 0.2s all ease;
   user-select: none;
+  pointer-events: all;
   cursor: pointer;
 
   &:hover {
